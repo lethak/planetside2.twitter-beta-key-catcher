@@ -16,18 +16,18 @@ Short description: Real-time Beta-key extractor | twitter @planetside2 via strea
  please don't bother reading further into this script.
 
  Will match most key formated like this: (and put it in order if able to do so)
-	XXXX-XXXX-XXXX-XXXX-XXXX
-	XXXXXXXXXXXXXXXXXXXX
-	xxxx-xxxx-xxxx-xxxx-xxxx
-	xxxxxxxxxxxxxxxxxxxx
-	(1)XXXX- (3)XXXX- (4)XXXX- (5)XXXX- (2)XXXX-
-	[1]XXXX- [3]XXXX- [4]XXXX- [5]XXXX- [2]XXXX-
-	[1]XXXX- [3]XXXX- [4]XXXX- [5]XXXX [2]XXXX-
-	[1]XXXX[3]XXXX[4]XXXX[5]XXXX[2]XXXX
-	(3)Z6TM-(1)ZTKX-[4]FHHE-FCK2 (2)DKM2-
-	(5)KKT6-RHXE(z)-2E-[ZZ)N6-A943(ZZ)-J6NR
-	(2)HH66-KM4K-4X2H (1)CXJ3-GGGE-
-	-> and some more (improvable if you have the regexpr mojo)
+*	XXXX-XXXX-XXXX-XXXX-XXXX
+*	XXXXXXXXXXXXXXXXXXXX
+*	xxxx-xxxx-xxxx-xxxx-xxxx
+*	xxxxxxxxxxxxxxxxxxxx
+*	(1)XXXX- (3)XXXX- (4)XXXX- (5)XXXX- (2)XXXX-
+*	[1]XXXX- [3]XXXX- [4]XXXX- [5]XXXX- [2]XXXX-
+*	[1]XXXX- [3]XXXX- [4]XXXX- [5]XXXX [2]XXXX-
+*	[1]XXXX[3]XXXX[4]XXXX[5]XXXX[2]XXXX
+*	(3)Z6TM-(1)ZTKX-[4]FHHE-FCK2 (2)DKM2-
+*	(5)KKT6-RHXE(z)-2E-[ZZ)N6-A943(ZZ)-J6NR
+*	(2)HH66-KM4K-4X2H (1)CXJ3-GGGE-
+*	-> and some more (improvable if you have the regexpr mojo)
 
  The script can (often) detect keys over multiple tweets (even if not perfect)
  The twitter "API limit rate" does not apply in this case since it is tracking a real-time stream of tweets
