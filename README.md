@@ -43,7 +43,8 @@ Short description: Real-time Beta-key extractor | twitter @planetside2 via strea
 
  Exemple of use:
 ================
-	# create a file called 'soe.php' with:
+
+Create a file called 'soe.php' with:
 
 	// (dont forget to include Phirehose and Soe_Pskeystream before this line)
 	$Stream = new Soe_Pskeystream('USSERNAME', 'PASSWORD', LethaK_Twitter_Phirehose::METHOD_FILTER);
@@ -52,12 +53,12 @@ Short description: Real-time Beta-key extractor | twitter @planetside2 via strea
 	$Stream->setFollow(array("247430686"));//@planetside2
 	$Stream->consume();
 
-	# Then you can run it from CLI like this:
+Then you can run it from CLI like this:
 
 	$ php soe.php
-	
-	# if you want to call if from a browser you will want to check the 'max execution time' setting from PHP. (must be unlimited-like)
-	# Then, get ready to copy/paste fast ;)
+
+If you want to call if from a browser you will want to check the 'max execution time' setting from PHP. (must be unlimited-like)
+Then, get ready to copy/paste fast ;)
 
  Customisations:
 ================
